@@ -1,0 +1,10 @@
+D:\Project\VisualStudio\Craweler\Craweler\obj\Debug\Craweler.csprojAssemblyReference.cache
+D:\Project\VisualStudio\Craweler\Craweler\obj\Debug\Craweler.Properties.Resources.resources
+D:\Project\VisualStudio\Craweler\Craweler\obj\Debug\Craweler.csproj.GenerateResource.cache
+D:\Project\VisualStudio\Craweler\Craweler\obj\Debug\Craweler.csproj.CoreCompileInputs.cache
+D:\Project\VisualStudio\Craweler\Craweler\bin\Debug\Craweler.exe.config
+D:\Project\VisualStudio\Craweler\Craweler\bin\Debug\Craweler.exe
+D:\Project\VisualStudio\Craweler\Craweler\bin\Debug\Craweler.pdb
+D:\Project\VisualStudio\Craweler\Craweler\obj\Debug\Craweler.Form1.resources
+D:\Project\VisualStudio\Craweler\Craweler\obj\Debug\Craweler.exe
+D:\Project\VisualStudio\Craweler\Craweler\obj\Debug\Craweler.pdb
