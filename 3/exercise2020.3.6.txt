@@ -1,0 +1,142 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Shape
+{
+    public abstract class Shape
+    {
+        public abstract bool IsRight();
+        public abstract double Calculate();
+    }
+
+    public class Rectangle : Shape
+    {
+        private double width;
+        private double height;
+
+        public Rectangle(double width, double height) {
+            this.width = width;
+            this.height = height;
+        }
+
+        public override bool IsRight()
+        {
+            if (width <= 0 || height <= 0)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public override double Calculate() {
+            return width * height;
+        }
+    }
+
+    public class Square : Shape
+    {
+        private double side;
+
+        public Square(double side)
+        {
+            this.side = side;
+        }
+
+        public override bool IsRight()
+        {
+            if (side <= 0) {
+                return false;
+            }
+            return true;
+        }
+
+        public override double Calculate() {
+            return side * side;
+        }
+    }
+
+    public class Triangle : Shape
+    {
+        private double side1;
+        private double side2;
+        private double side3;
+
+        public Triangle(double side1, double side2, double side3) {
+            this.side1 = side1;
+            this.side2 = side2;
+            this.side3 = side3;
+        }
+
+        public override bool IsRight() {
+            bool flag = true;
+            if (side1 + side2 <= side3 || side1 + side3 <= side2 || side2 + side3 <= side1) {
+                flag = false;
+            }
+            if (side1 <= 0 || side2 <= 0 || side3 <= 0) {
+                flag = false;
+            }
+            return flag;
+        }
+
+        public override double Calculate() {
+            double p = (side1 + side2 + side3) / 2;
+            return System.Math.Sqrt(p * (p - side1) * (p - side2) * (p - side3));
+        }
+    }
+
+    public class Factory
+    {
+        private static readonly Random Rnd = new Random();
+
+        public Shape Draw(string typeOfShape)
+        {
+            switch (typeOfShape)
+            {
+                case "Rectangle":
+                    return new Rectangle(10 * Rnd.NextDouble(), 10 * Rnd.NextDouble());
+                case "Square":
+                    return new Square(10 * Rnd.NextDouble());
+                case "Triangle":
+                    return new Triangle(10 * Rnd.NextDouble(), 10 * Rnd.NextDouble(), 10 * Rnd.NextDouble());
+                default:
+                    throw new ArgumentException("Unknow shape");
+            }
+        }
+
+        public Shape Draw()
+        {
+            var shapes = new List<string> { "Rectangle", "Square", "Triangle" };
+            return Draw(shapes[Rnd.Next(0, 3)]);
+        }
+
+        public double Calculate(Shape[] facShape)
+        {
+            double area=0;
+            foreach(Shape shape in facShape){
+                area += shape.Calculate();
+            }
+            return area / facShape.Length;
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Factory factory = new Factory();
+            Shape[] facShape = new Shape[10];
+            for (int i = 0; i < facShape.Length; i++) {
+                facShape[i] = factory.Draw();
+                while (!facShape[i].IsRight()) {
+                    facShape[i]=factory.Draw();
+                }
+                Console.WriteLine(facShape[i].GetType().Name + " " + facShape[i].Calculate());
+            }
+            double avarageArea = factory.Calculate(facShape);
+            Console.WriteLine("Factory's avarage area is " + factory.Calculate(facShape));
+        }
+    }
+}
