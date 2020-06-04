@@ -1,0 +1,10 @@
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 8\订单管理系统 - 窗口应用程序\订单管理系统 - 窗口应用程序\bin\Debug\订单管理系统 - 窗口应用程序.exe.config
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 8\订单管理系统 - 窗口应用程序\订单管理系统 - 窗口应用程序\bin\Debug\订单管理系统 - 窗口应用程序.exe
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 8\订单管理系统 - 窗口应用程序\订单管理系统 - 窗口应用程序\bin\Debug\订单管理系统 - 窗口应用程序.pdb
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 8\订单管理系统 - 窗口应用程序\订单管理系统 - 窗口应用程序\obj\Debug\OrderManageSystem.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 8\订单管理系统 - 窗口应用程序\订单管理系统 - 窗口应用程序\obj\Debug\OrderManageSystem.Form1.resources
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 8\订单管理系统 - 窗口应用程序\订单管理系统 - 窗口应用程序\obj\Debug\订单管理系统___窗口应用程序.Properties.Resources.resources
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 8\订单管理系统 - 窗口应用程序\订单管理系统 - 窗口应用程序\obj\Debug\OrderManageSystem.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 8\订单管理系统 - 窗口应用程序\订单管理系统 - 窗口应用程序\obj\Debug\OrderManageSystem.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 8\订单管理系统 - 窗口应用程序\订单管理系统 - 窗口应用程序\obj\Debug\订单管理系统 - 窗口应用程序.exe
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 8\订单管理系统 - 窗口应用程序\订单管理系统 - 窗口应用程序\obj\Debug\订单管理系统 - 窗口应用程序.pdb
