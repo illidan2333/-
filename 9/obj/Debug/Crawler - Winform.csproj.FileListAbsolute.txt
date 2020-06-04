@@ -1,0 +1,10 @@
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\bin\Debug\Crawler - Winform.exe.config
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\bin\Debug\Crawler - Winform.exe
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\bin\Debug\Crawler - Winform.pdb
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler - Winform.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler___Winform.Form1.resources
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler___Winform.Properties.Resources.resources
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler - Winform.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler - Winform.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler - Winform.exe
+C:\Users\lenovo\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler - Winform.pdb
